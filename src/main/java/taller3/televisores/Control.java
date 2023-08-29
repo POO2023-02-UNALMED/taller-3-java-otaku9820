@@ -56,10 +56,18 @@ public class Control {
 		tv.setControl(this);
 	}
 	public void setTv(TV tv) {
-		this.tv=tv;
+		if(tv != null) {
+			this.tv=tv;
+		}
+		
 	}
-	public TV getTv(TV tv) {
-		return this.tv;
+	public TV getTv() {
+		if(tv!=null) {
+			return null;
+			
+		}
+		return tv;
+		
 	}
 
 }

@@ -56,17 +56,14 @@ public class Control {
 		tv.setControl(this);
 	}
 	public void setTv(TV tv) {
-		if(tv != null) {
+		
 			this.tv=tv;
-		}
+	
 		
 	}
 	public TV getTv() {
-		if(tv!=null) {
-			return null;
-			
-		}
 		return tv;
+		
 		
 	}
 

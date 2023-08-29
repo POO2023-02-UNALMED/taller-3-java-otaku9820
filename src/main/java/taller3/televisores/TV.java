@@ -58,7 +58,7 @@ public class TV {
 	public Control  getControl() {
 		return control;
 	}
-	public void setNumTV(int numTV) {
+	public static  void setNumTV(int numTV) {
 		
 			TV.numTv=numTV;
 			
@@ -67,7 +67,7 @@ public class TV {
 		
 		
 	
-	public int getNumTV() {
+	public  static int getNumTV() {
 		return numTv;
 	}
 	public void turnOn(){

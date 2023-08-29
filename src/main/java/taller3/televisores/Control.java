@@ -51,5 +51,9 @@ public class Control {
 			tv.setVolumen(volumen);
 		}
 	}
+	public void enlazar(TV tv) {
+		this.tv=tv;
+		tv.setControl(this);
+	}
 
 }
